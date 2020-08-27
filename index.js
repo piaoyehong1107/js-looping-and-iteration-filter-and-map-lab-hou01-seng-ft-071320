@@ -29,7 +29,7 @@ function exactMatch(driver, attr){
 }
 
 function exactMatchToList(){
-  let newdriverlist=[]
+  let newdrivername=[]
    let key=Object.keys(attr)
   driver.filter(function (driv){
      if (driv[[key[0]]]===attr[key]){
